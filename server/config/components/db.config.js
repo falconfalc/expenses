@@ -4,8 +4,8 @@ const getDbUrl = (username, password, dbname) => {
 };
 
 export const dbConfig = {
-    username: 'movDB',
-    password: 'hOGjyGa6us9F0H7d',
+    username: process.env.MONGO_USER,
+    password: process.env.MONGO_PWD,
     dbName: 'bills_expenses',
     port: 80,
     config: {

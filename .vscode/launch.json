@@ -19,16 +19,16 @@
         //     "urlFilter": "http://localhost:3000/*", // use urlFilter instead of url!
         //     "webRoot": "${workspaceFolder}/client-ts/"
         // },
-        {
-            "name": "WSL Chrome",
-            "type": "chrome",
-            "request": "launch",
-            "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/client-ts",
-            "sourceMapPathOverrides": {
-              "/*": "/__vscode-remote-uri__/*"
-            },
-        },
+        // {
+        //     "name": "WSL Chrome",
+        //     "type": "chrome",
+        //     "request": "launch",
+        //     "url": "http://localhost:3000",
+        //     "webRoot": "${workspaceFolder}/client-ts",
+        //     "sourceMapPathOverrides": {
+        //       "/*": "/__vscode-remote-uri__/*"
+        //     },
+        // },
         {
             "type": "node",
             "request": "launch",
